@@ -45,6 +45,18 @@ The goal is to practice production-relevant AI engineering patterns:
 
 Prefer solving in `challenges/` first, then extracting reusable code into `src/`.
 
+## Repository Skills
+
+Repository-level Codex skills live under `.agents/skills/`.
+
+Current skills:
+
+- `save-progress`: validate changes, update progress docs, commit, and push safely.
+- `generate-challenge`: create the next focused AI engineering challenge with tests.
+- `review-solution`: review a completed challenge before commit or extraction.
+
+Skills are instruction-only for now. They do not include scripts.
+
 ## Challenge File Sections
 
 Each challenge should include:
