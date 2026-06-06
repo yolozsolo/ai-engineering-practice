@@ -1,0 +1,51 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Local data, model, and vector-store artifacts
+data/
+models/
+artifacts/
+outputs/
+chroma/
+qdrant_storage/
+faiss_index/
+*.faiss
+*.index
+*.sqlite3
+*.db
+
+# Logs and traces
+logs/
+*.log
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
